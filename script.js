@@ -4,9 +4,6 @@ const score = document.getElementById("score")
 // let clickcount = localStorage.clickcount
 // let autoInc = localStorage.autoInc
 
-
-
-
 window.onload = function(){
     update()
 }
