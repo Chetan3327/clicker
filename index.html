@@ -7,17 +7,21 @@
 </head>
 
 <body>
+    <div class="controls">
+        <div class="inc" id="inc">Inc Per Sec: 0</div>
+    </div>
     <div class="container">
         <div class="score" id="score">0</div>
-        <button id="click" class="click button-29" onclick="update()">CLICK ME !</button>
+        <button id="click" class="click button-29" onclick="c()">CLICK ME !</button>
     </div>
     <br>
     <br>
     <br>
     <div class="controls">
-        <button class="button-29">new</button>
+        <button class="button-29" onclick="Inc(10, 1)">Cost: 10, Inc: 1/sec</button>
+        <button class="button-29" onclick="Inc(50, 2)">Cost: 50, Inc: 2/sec</button>
         <button class="button-29">new</button>
     </div>
 </body>
-<script src="script.js"></script>
+<script src="newscript.js"></script>
 </html>
