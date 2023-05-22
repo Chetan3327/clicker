@@ -1,4 +1,4 @@
-if(localStorage.clickcount === undefined && localStorage.autoInc === undefined){
+if(localStorage.clickcount === NaN && localStorage.autoInc === undefined){
     localStorage.clickcount = 1;
     localStorage.autoInc = 0;   
 }
